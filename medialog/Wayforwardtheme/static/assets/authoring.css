@@ -1,4 +1,8 @@
  
+ .overlay  {
+	background: white;
+	padding: 1em;
+}
 /* Editable border */
 
 .contentViews {

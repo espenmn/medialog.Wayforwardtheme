@@ -1,3 +1,4 @@
+/* @override http://localhost:8080/wayforward/++theme++medialog.Wayforwardtheme/++theme++medialog.Wayforwardtheme/assets/navigation.css */
 
 #portal-globalnav  {
 	clear: both;
@@ -99,11 +100,12 @@
 
 .mobileButtons {
 	float: right;
-	margin: 0;
+	margin: 1em 0 0 0;
 	display: block;
 	z-index: 4;
     list-style:none;
     padding-left: 0;
+    position: relative;
 }
 
 .mobileButtons a {
