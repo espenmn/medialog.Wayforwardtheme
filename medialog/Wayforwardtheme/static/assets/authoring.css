@@ -45,6 +45,8 @@
 /*edit bar */
 #edit-bar {
 	clear: both;
+	z-index:12;
+	position:  relative;
 }
 
 /*
