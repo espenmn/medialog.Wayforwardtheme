@@ -130,6 +130,33 @@ h2 {
 	margin: 0 0 0.2em 0;
 }
 
+
+h2.slidetitle {
+	position: absolute;
+	top: 0px;
+	z-index: 11;
+	color:  white;
+	background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(1,0,0,0) 61%, rgba(2,0,0,0) 98%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,1)), color-stop(61%,rgba(1,0,0,0)), color-stop(98%,rgba(2,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(1,0,0,0) 61%,rgba(2,0,0,0) 98%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(1,0,0,0) 61%,rgba(2,0,0,0) 98%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(1,0,0,0) 61%,rgba(2,0,0,0) 98%); /* IE10+ */
+	background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(1,0,0,0) 61%,rgba(2,0,0,0) 98%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00020000',GradientType=1 ); /* IE6-9 */
+
+	padding: 5px 20px;
+	opacity: 0.75;
+	width: 50%;
+}
+
+p.slidedescription {
+	position: absolute;
+	bottom: 15px;
+	left:  20px;
+	z-index: 11;
+	color:  white;;
+}
+
 h3 {
 	font-size: 1.6em;
 	margin: 0 0 0.5em 0;
