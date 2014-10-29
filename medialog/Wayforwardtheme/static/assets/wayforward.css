@@ -38,7 +38,7 @@ h2.tileHeadline a.summary.url {
    -webkit-hyphens: auto;
    -moz-hyphens: auto;
    hyphens: auto;
-   color: #ffb52e;
+   color: #dfa848;
 }
 
 [hidden] {
@@ -883,7 +883,7 @@ img.newsImage {
 
 div.tileItem {
 	margin: 1em 0 0 0;
-	border: 1px  dotted grey;
+	border: 1px solid #afb0af;
 	padding: 1em;
 	border-radius: 4px;
 	padding-top: 0;
@@ -897,32 +897,36 @@ div.tileItem {
 	
 @media screen and (min-width: 700px){
 
+	div.tileItem {
+		width: 28%;
+		float: left;
+		min-height: 370px;
 
-div.tileItem {
- 
-	width: 28%;
-	float: left;
-	min-height: 370px;
+	}	
 
-}	
-
-#content-core div.tileItem.visualIEFloatFix:nth-child(3n+1) {  
- 	clear: left;
-}
+	#content-core div.tileItem.visualIEFloatFix:nth-child(3n+1) {  
+ 		clear: left;
+	}
 
 
-#content-core div.tileItem.visualIEFloatFix:nth-child(3n+2) {
+	#content-core div.tileItem.visualIEFloatFix:nth-child(3n+2) {
 		margin-left: 0.4em;
+	}
+
+
+	#content-core div.tileItem.visualIEFloatFix:nth-child(3n+3) {  
+ 		margin-right: 0;
+ 		float: right;
+	}
+
+
 }
 
+@media screen and (max-width: 800px){
+div.social img {
+	margin:  0 10px;
 
-#content-core div.tileItem.visualIEFloatFix:nth-child(3n+3) {  
- 	margin-right: 0;
- 	float: right;
 }
-
-
-
 }
 
 .tileImage {
@@ -942,6 +946,13 @@ div.tileItem {
 .social {
 	margin: 10px 0 20px 0;
 	text-align: center
+}
+
+.social img {
+	max-height: 80px;
+	margin: 0 1em;
+	width: auto
+	
 }
 
 .social a {
