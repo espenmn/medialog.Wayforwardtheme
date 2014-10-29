@@ -923,10 +923,16 @@ div.tileItem {
 }
 
 @media screen and (max-width: 800px){
+
+ul.mobileButtons {
+	margin-top: 0;
+}
 div.social img {
 	margin:  10px;
 
 }
+
+
 }
 
 .tileImage {
