@@ -1,4 +1,7 @@
-
+/* @override 
+	http://www.wayforward.no/++theme++medialog.Wayforwardtheme/++theme++medialog.Wayforwardtheme/assets/wayforward.css
+	http://localhost:8080/wayforward/++theme++medialog.Wayforwardtheme/++theme++medialog.Wayforwardtheme/assets/wayforward.css
+*/
 
 #parent-fieldname-description,
 #content-core{
@@ -895,6 +898,9 @@ div.tileItem {
 	float: left;
 	list-style-type: none;
 	list-style-image: none;
+	min-height: 325px;
+	height: auto;
+
 }
 
 #quicksandbox li:nth-child(3n+2)  {
@@ -903,6 +909,10 @@ div.tileItem {
 	
 }
 
+#quicksandbox li:nth-child(3n+1)  {
+	clear: both;
+	
+}
 @media screen and (min-width: 800px){
 	body #content-core div.tileItem.visualIEFloatFix:nth-child(3n+2) {
 		margin-left: 1.25em;
