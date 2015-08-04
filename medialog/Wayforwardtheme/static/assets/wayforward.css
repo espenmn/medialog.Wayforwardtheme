@@ -1,4 +1,4 @@
-/* @override http://localhost:8080/wayforward/++theme++medialog.Wayforwardtheme/++theme++medialog.Wayforwardtheme/assets/wayforward.css */
+
 
 #parent-fieldname-description,
 #content-core{
@@ -32,6 +32,7 @@ a {
 	text-decoration: none;
 }
 
+h3.image-title, 
 h2.tileHeadline a.summary.url {
    word-break: break-all;
    word-break: break-word;
@@ -868,6 +869,10 @@ div#content {
 	box-sizing: border-box;
 }
 
+#quicksandbox li  img {
+	margin-bottom: 1em;
+}
+
 img.tileImage {
 	float: left;
 	margin-right: 1em;
@@ -880,13 +885,22 @@ img.newsImage {
 	float: right;
 }
 
-
+#quicksandbox  li,
 div.tileItem {
 	margin: 1em 0 0 0;
 	border: 1px solid #afb0af;
 	padding: 1em;
 	border-radius: 4px;
 	padding-top: 0;
+	float: left;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+#quicksandbox li:nth-child(3n+2)  {
+	margin-left: 1.6em;
+	margin-right: 1.6em;
+	
 }
 
 @media screen and (min-width: 800px){
@@ -1355,6 +1369,10 @@ div#ajax-spinner {
 }
 
 ul#quicksandbox.image-grid {
-clear:  both;;	
+clear:  both;	
+padding:  0;
+ 
 }
+ 
+
  
