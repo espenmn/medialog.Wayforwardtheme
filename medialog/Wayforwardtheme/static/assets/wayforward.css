@@ -1,7 +1,3 @@
-/* @override 
-	http://www.wayforward.no/++theme++medialog.Wayforwardtheme/++theme++medialog.Wayforwardtheme/assets/wayforward.css
-	http://localhost:8080/wayforward/++theme++medialog.Wayforwardtheme/++theme++medialog.Wayforwardtheme/assets/wayforward.css
-*/
 
 #parent-fieldname-description,
 #content-core{
@@ -37,8 +33,7 @@ a {
 
 h3.image-title, 
 h2.tileHeadline a.summary.url {
-   word-break: break-all;
-   word-break: break-word;
+
    -webkit-hyphens: auto;
    -moz-hyphens: auto;
    hyphens: auto;
